@@ -18,14 +18,22 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
 	text-align: left;
-	padding-left: 2em;
+	padding-left: 1em;
 	padding-bottom: 100em;
-	padding-top: 2em;
-	border-top: 8em solid #7C9C46;
-	border-left: 8em solid #7C9C46;
+	padding-top: 1em;
+	border-top: 10em solid #7C9C46;
+	border-left: 4em solid #7C9C46;
 		
 }
 
+div#tops {
+	font-size: 14px;
+	padding-top:0em;
+	position: absolute;
+	top: 0;
+	left: 4em;
+	
+}
 
 p {
 	color: black;
@@ -35,6 +43,7 @@ h1 {
 	color: black;
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 32px;	
+	padding-top: 1em;
 }
 	
 h2 { 
@@ -53,12 +62,20 @@ ul {
 	color: black;
 }
 
+ul#navi li {
+	text-decoration: none;
+	color: #364C80;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+
 a {
 	text-decoration: none;
 	color: #364C80;
 }
 
+a#email {
+	font-size: 12px;
+}
 
-div#work {
-	
-  }
