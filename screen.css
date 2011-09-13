@@ -79,3 +79,17 @@ a#email {
 	font-size: 12px;
 }
 
+div#education {
+	position: relative;
+	padding-top: 2em;
+}
+
+div#work {
+	position: relative;
+	padding-top: 2em;
+}
+
+div#personal {
+	position: relative;
+	padding-top: 2em;
+}
