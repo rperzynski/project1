@@ -16,13 +16,13 @@ body {
 	background: #F5F5F5;
 	color: black;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
 	text-align: left;
 	padding-left: 1em;
 	padding-bottom: 100em;
 	padding-top: 1em;
-	border-top: 9em solid #7C9C46;
-	border-left: 4em solid #7C9C46;
+	border-top: 8em solid #7C9C46;
+	border-left: 3.5em solid #7C9C46;
 		
 }
 
@@ -88,11 +88,6 @@ ul#tag li {
 	font-size: 16px;
   padding-top: .5em;
   padding-bottom: 1em;
-}
-
-ul#para li {
-  font-size: 16px;
-  padding: .5em;
 }
 
 a {
