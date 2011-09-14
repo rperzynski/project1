@@ -1,4 +1,4 @@
-/*
+/* Yahoo Reset Styles
 Copyright (c) 2011, Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:
 http://developer.yahoo.com/yui/license.html
@@ -21,7 +21,7 @@ body {
 	padding-left: 1em;
 	padding-bottom: 100em;
 	padding-top: 1em;
-	border-top: 10em solid #7C9C46;
+	border-top: 9em solid #7C9C46;
 	border-left: 4em solid #7C9C46;
 		
 }
@@ -43,21 +43,34 @@ h1 {
 	color: black;
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 32px;	
-	padding-top: 1em;
+	padding-top: .5em;
+  font-weight: bold;
+  
 }
 	
 h2 { 
 	color: black;
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 24px;
-	font-weight: bold;
 }
+
+h2.city {
+  color: black;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 18px;
+}
+
+h2.resumesections {
+  padding-bottom: 1em;
+}
+
 h3 {
 	color: black;
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 16px;
-	font-weight: bold;
+	text-decoration: none;
 }	
+
 ul {
 	color: black;
 }
@@ -66,30 +79,83 @@ ul#navi li {
 	text-decoration: none;
 	color: #364C80;
 	font-size: 16px;
-	font-weight: bold;
+  display: inline;
 }
 
+ul#tag li {
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+  padding-top: .5em;
+  padding-bottom: 1em;
+}
+
+ul#para li {
+  font-size: 16px;
+  padding: .5em;
+}
 
 a {
 	text-decoration: none;
 	color: #364C80;
 }
 
-a#email {
-	font-size: 12px;
+a.school {
+  color: black;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+a.employers {
+  color: black;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+a.volunteers {
+  color: black;
+  font-size: 18px;
+  text-decoration: underline;
 }
 
 div#education {
 	position: relative;
 	padding-top: 2em;
+  text-decoration: none;
+	color: black;
 }
 
 div#work {
 	position: relative;
 	padding-top: 2em;
+  text-decoration: none;
+	color: black;
 }
 
 div#personal {
 	position: relative;
 	padding-top: 2em;
+  text-decoration: none;
+	color: black;
 }
+
+li.tag {
+  padding-top: .5em;
+  padding-bottom: 1em;
+}
+
+
+
+
+
+/*
+ul#contact > li + li + li { margin-top: 20px; }
+This will bump down the Third item in the ul contact
+
+li.tel{ margin-top: 20px;}
+
+If you mark it as <li class="tel"> in the htm file
+
+This will bump down the item in the list
+
+*/
