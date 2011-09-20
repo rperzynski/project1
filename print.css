@@ -1,0 +1,164 @@
+/* Yahoo Reset Styles
+Copyright (c) 2011, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.com/yui/license.html
+version: 2.9.0
+*/
+html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,select,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,button,caption,cite,code,dfn,em,input,optgroup,option,select,strong,textarea,th,var{font:inherit}del,ins{text-decoration:none}li{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:baseline}sub{vertical-align:baseline}legend{color:#000}
+
+/*Screen Styles*/
+
+html {
+  color: black;
+}
+
+body {
+	background: #F5F5F5;
+	color: black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+	text-align: left;
+	padding-left: 0em;
+	padding-bottom: 100em;
+	padding-top: 1em;
+	border-top: 8em solid white;
+	border-left: 1em solid white;
+		
+}
+
+div#tops {
+	font-size: 14px;
+	padding-top:0em;
+	position: absolute;
+	top: 0;
+	left: 1em;
+	
+}
+
+p {
+	color: black;
+}
+
+h1 { 
+	color: black;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 32px;	
+	padding-top: .5em;
+  font-weight: bold;
+  
+}
+	
+h2 { 
+	color: black;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 24px;
+}
+
+h2.city {
+  color: black;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 18px;
+}
+
+h2.resumesections {
+  padding-bottom: 1em;
+}
+
+h3 {
+	color: black;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	text-decoration: none;
+}	
+
+ul {
+	color: black;
+}
+
+ul#navi li {
+	text-decoration: none;
+	color: #364C80;
+	font-size: 16px;
+  display: inline;
+}
+
+ul#intro li {
+	padding-top: 1em;
+}
+
+ul#ports li {
+	padding-top: 1em;
+}
+
+ul#tag li {
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+  padding-top: .5em;
+  padding-bottom: 1em;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a.school {
+  color: black;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+a.employers {
+  color: black;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+a.volunteers {
+  color: black;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+div#education {
+	position: relative;
+	padding-top: 2em;
+  text-decoration: none;
+	color: black;
+}
+
+div#work {
+	position: relative;
+	padding-top: 2em;
+  text-decoration: none;
+	color: black;
+}
+
+div#personal {
+	position: relative;
+	padding-top: 2em;
+  text-decoration: none;
+	color: black;
+}
+
+li.tag {
+  padding-top: .5em;
+  padding-bottom: 1em;
+}
+
+
+
+
+
+/*
+ul#contact > li + li + li { margin-top: 20px; }
+This will bump down the Third item in the ul contact
+
+li.tel{ margin-top: 20px;}
+
+If you mark it as <li class="tel"> in the htm file
+
+This will bump down the item in the list
+
+*/
